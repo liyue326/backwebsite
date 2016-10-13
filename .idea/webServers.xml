@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35482b85-6e84-422b-9999-2d65a9cf2f6d" name="MuAdmin" url="http://121.41.107.183">
+        <fileTransfer host="121.41.107.183" port="22" accessType="SFTP" password="dfc7dfdfdfcbdfcedfc7dfc3dfc4df98df9adf9bdf9c" username="dangtv">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>当果后台</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="bookmark" href="favicon.ico">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="page-header-fixed ">
+  <div class="banner">
+    <img class="header_img " id="header_img" title="第一张banner" src="http://oayg3au5a.bkt.clouddn.com/header3.png?imageView2/2/h/400"/> 
+    <h1>MU<small>mov</small></h1>
+  </div>
+  <div class="login">
+    <from role="form">
+        <p class="form-group">
+            <input banner_id="" id="name" name="name" value="" class="form-control" type="text" placeholder="请输入用户名"></input>
+        </p>
+        <p class="form-group">
+            <input id="password" name="pwd" value="" class="form-control" type="password" placeholder="请输入密码"></input>
+        </p>
+        <p class="form-group">
+            <button id="login_btn" class="form-control" type="submit">登陆
+            </button>
+        </p>
+        <p class="form-group">
+            <button id="login_btn1" class="form-control" data-toggle="modal" data-target="#manage_modal">
+                联系管理人员
+            </button>
+        </p>
+    </from>
+    <div class="modal" id="manage_modal" role="dialog" aria-labelledby="exampleModalLabel" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    联系管理员
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="user" class="control-label">联系人</label>
+                        <input class="form-control" id="user" value="梁勋"></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="control-label">QQ</label>
+                        <input class="form-control" id="password" value="707719848"></input>
+                    </div>
+                     <div class="form-group">
+                        <label for="password" class="control-label">微信</label>
+                        <input class="form-control" id="password" value="keen-String"></input>
+                    </div>
+                     <div class="form-group">
+                        <label for="password" class="control-label">手机</label>
+                        <input class="form-control" id="password" value="13126734215"></input>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">close</button>
+                <button class="btn btn-primary">send</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/login.js"></script>
+ <script src="js/logout.js"></script>
+</body>
+</html>
